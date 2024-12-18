@@ -1,4 +1,6 @@
+import Header from "@/components/Header";
 import type { Metadata } from "next";
+import './globals.css';
 
 export const metadata: Metadata = {
   title: "Clucth Stats",
@@ -12,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>{children}</body>
+      <body><Header />
+      {children}
+      </body>
     </html>
   );
 }
