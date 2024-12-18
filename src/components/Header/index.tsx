@@ -17,7 +17,7 @@ export default function Header() {
     <header className="w-full sticky top-0 bg-orange-400 p-5 ">
       <div className="max-w-[1280px] mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center justify-between">
-          <Image src={logo} alt="Logo Clutch Stats" className="w-2/5" />
+          <Image src={logo} alt="Logo Clutch Stats" className="w-1/4" />
         </Link>
         <nav>
           <ul className="hidden lg:flex gap-4 font-medium">
